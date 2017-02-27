@@ -1,0 +1,98 @@
+.years {
+    background: #009cde;
+    height: 500px;
+    width: 100%;
+}
+
+.boxed {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.years .boxed .text {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.years .boxed .text ul {
+    list-style-type: none;
+}
+
+.years .boxed .text ul li {
+    display: inline-block;
+}
+
+.appoint .item {
+    border: 1px solid silver;
+    height: ;
+    text-align: center;
+}
+
+.appoint .text {
+    text-align: center;
+    padding: 30px;
+}
+
+.appoint .text1 input {
+    padding: 12px;
+    width: 25%;
+    margin-top: 30px;
+}
+
+.item {
+    padding: 5px;
+}
+
+.item input {
+    padding: 12px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.item select {
+    width: 55%;
+    padding: 12px;
+    margin-top: 30px;
+    color: gray;
+}
+
+.item a {
+    border: 1px solid silver;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+    background: #009cde;
+}
+
+.item p {
+    margin: 40px 0 30px 0;
+}
+
+.row {
+    margin-top: 100px;
+    background: #333;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+.row:hover {
+    background: #009cde;
+    transition: all 0.3s ease-in-out;
+}
+
+.main1 .photos .flex {
+    flex-direction: row;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.main1 .photos .flex .flex-item {
+    width: 25%;
+    height: 50%;
+}
